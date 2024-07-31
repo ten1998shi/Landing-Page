@@ -14,6 +14,7 @@
     padding-right: 160px;
     width: 100%;
     height: 400px;
+    flex: 1;
  }
  .container2{
     display: flex;
@@ -81,6 +82,10 @@
 
  /* First Section of Page End*/
 
+
+
+ /*Second Section of Page*/
+
  .s2container1 {
     display: flex;
     justify-content: center;
@@ -93,6 +98,7 @@
     width: 100%;
     height: 400px;
     text-wrap: wrap;
+    flex: 1;
     
 
  }
@@ -123,7 +129,38 @@
  }
 
  .s2textboxalign {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
+    align-items: center;
    
     
+ }
+
+ /*Second Section of Page End*/
+
+ .s3container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color:#E5E7EB ;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-direction: column;
+    
+ }
+ .s3quote{
+    font-size: 36px;
+    opacity: 0.5;
+
+ }
+
+ .s3thor{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 100px;
  }
