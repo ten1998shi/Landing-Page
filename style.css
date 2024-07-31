@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
  }
+ /* First Section of Page */
  .container1{
     display: flex;
     justify-content: center;
@@ -76,4 +77,53 @@
  .container1 header{
     align-items: flex-start;
 
+ }
+
+ /* First Section of Page End*/
+
+ .s2container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding-left: 160px;
+    padding-right: 160px;
+    width: 100%;
+    height: 400px;
+    text-wrap: wrap;
+    
+
+ }
+
+ .h2s2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+ }
+
+ .box {
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-color:#3882F6;
+    border-radius: 8px;
+ }
+
+ .s2container2 {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: auto;
+    
+ }
+
+ .s2textboxalign {
+    padding: 10px;
+   
+    
  }
